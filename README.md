@@ -10,6 +10,7 @@
 1,注意樹梅派裡頭BLE_new.py裡頭的31行，裡面的字串換成所要連的gatt server的藍芽mac位址，還有gatt server的位置特性(random或public)\
 2,先在mbed按執行之後，就可以讓stm32扮演gatt server的角色，再用樹梅派的ble.py來去獲取需要的服務，我們寫的是可以讓原本板子上不亮的led再執行後變成亮，達到peripheral控制led的效果\
 3,服務內容就會顯示在樹梅派的terminal
+4,按stm32板子的按鈕可以啟用notify 切換顯示的學生id功能
 
 
 
